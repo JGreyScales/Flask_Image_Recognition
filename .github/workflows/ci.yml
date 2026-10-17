@@ -42,6 +42,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.10'  # Specify the Python version
+          cache: pip
 
       - name: Install dependencies
         run: |
@@ -50,4 +51,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest test_model.py  # Run your tests
+          pytest
