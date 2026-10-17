@@ -1,4 +1,6 @@
-name: CI
+# CI/CD for linting + automated tests
+
+name: CI/CD
 
 on:
   push:
