@@ -1,7 +1,7 @@
+"Intergration tests using the flask routes"
 # test_integration_happy.py
 
 from io import BytesIO
-import pytest
 
 def test_successful_prediction(client):
     """Test the successful image upload and prediction."""
